@@ -199,7 +199,6 @@ this.ckan.module('recline_view', function (jQuery, _) {
     },
 
     _localizeData: function(d){
-    console.log(this.options.resourceView)
     var records = d.records.models;
     records.forEach(function(item){
       var attr = item.attributes;
