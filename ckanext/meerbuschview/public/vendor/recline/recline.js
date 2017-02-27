@@ -821,6 +821,9 @@ my.Field = Backbone.Model.extend({
     },
     'number': function(val, field, doc) {
       var format = field.get('format');
+      if(parseFloat(val) != NaN && typeof val === 'string'){
+          val = val.toString().replace('.',',');
+      }
       if (format === 'percentage') {
         return val + '%';
       }

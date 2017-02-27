@@ -97,7 +97,6 @@ this.ckan.module('recline_view', function (jQuery, _) {
           state,
           controls = [];
 
-      this._localizeData(dataset)
       if(reclineView.view_type === "recline_graph_view") {
         state = {
           "graphType": reclineView.graph_type,
