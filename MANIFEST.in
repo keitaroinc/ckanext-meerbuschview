@@ -1,2 +1,2 @@
 include README.rst
-recursive-include ckanext/meerbuschview *.html *.json *.js *.less *.css *.mo *.config
+recursive-include ckanext/meerbuschview *.html *.json *.js *.less *.css *.png *.mo *.config
